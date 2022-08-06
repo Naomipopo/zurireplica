@@ -1,0 +1,305 @@
+/*html, body {
+  height: 100%;
+  width: 100%;
+}*/
+
+ @import url('http://fonts.cdnfonts.com/css/averta-blackitalic?styles=17723');
+*{
+  box-sizing: border-box;
+ font-family:"Averta-Regular", sans-serif;
+}
+body{
+   font-weight:400;
+	font-family:'Averta-Regular',sans-serif;
+  font-size: 1rem;
+ line-height: 1.5;
+}
+.hero{
+ padding: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+.box1{
+    height: 800px;
+    background-image:url("hero-bg.svg");
+    background-size :cover;
+    background-position : center;
+    background-repeat : no-repeat;
+ 
+}
+.team{
+  display: flex;
+    padding-top: 69px;
+    margin-bottom: 69px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+   font-weight:400;
+	font-family:'Averta-Regular',sans-serif;
+  font-size: 1rem;
+ line-height: 1.5;
+}
+.pep{
+  color: #514949;
+  text-align:center;
+  line-height: 48px;
+  margin-bottom: 36px;
+  font-size: 32px;
+    font-weight: 800;
+}
+.lock{
+  max-width: 700px;
+  text-align: center;
+  font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+  margin-top: 0;
+    margin-bottom: 1rem;
+  box-sizing: border-box;
+    font-family: Averta, sans-serif;
+  font-weight:400;
+  font-size: 1rem;
+      display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  float: center;
+}
+a{
+   color: #E7332B;
+    text-decoration: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-align: center;
+}
+.industry{
+  margin-top: 92px;
+      display: block;
+  text-align: center;
+}
+
+.btn1{
+  background-color: #E7332B;
+    color:#fff;
+    margin-right:24px;
+  padding: 11px 28px;
+     font-family: 'Averta-Regular',sans-serif;
+   font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.btn12{
+  color:#fff;
+    font-family: 'Averta-Regular',sans-serif;
+}
+.btn1:hover{
+  background-color:#fff;
+  color:#E7332B; 
+  border: 1px solid #E7332B;
+}
+.btn12:hover{
+   color:#E7332B;
+}
+.btn1:active{
+   border: 1px solid #343a40;
+}
+
+.btn2{
+  background-color:#fff;
+    color: #E7332B;
+    padding: 11px 28px;
+    border: 1px solid #E7332B;
+    font-family: 'Averta-Regular',sans-serif;
+   font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.btn2:hover{
+  background-color:#E7332B;
+  color:#fff; 
+  border: 1px solid #E7332B;
+}
+.btn21:hover{
+   color:#fff;
+}
+.btn2:active{
+   border: 1px solid #343a40;
+}
+
+
+.cater{
+  background-color: #fff;
+    overflow: hidden;
+}
+.team2{
+  font-size: 14px;
+    line-height: 24px;
+    color: #E7332B;
+    margin-top: 141px;
+  margin-bottom: 0.5rem;
+    font-weight: 500;
+  text-align:center;
+}
+.cater2{
+  text-align:center;
+      font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #514949;
+    margin-top: 8px;
+    margin-bottom: 64px;
+}
+.row{
+  display:flex;
+  justify-content: space-between;
+    margin-right: 5px;
+    margin-left: 80px;
+  text-align: center;
+  height:500px;
+  width: 1240px;
+ 
+}
+.train{
+  box-sizing:border-box;
+  border:0px;
+  background-image:url("hero-bg.svg");
+  text-align: center!important;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+  width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+ margin-right:40px;
+}
+.left{
+  float:left;
+  width: 10px;
+    position: absolute;
+    left: -120px;
+    top: -75px;
+    z-index: -1;
+  height:30px;
+}
+max-width: 1440px !important;
+.cater1{
+  height:800px;
+}
+.zuritr{
+  padding-top:40px;
+  padding-left:-20px;
+  margin:auto;
+  position:relative; left:-90px;
+}
+.words{
+  text-align: center;
+  padding-top:40px;
+  font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+  margin-top: 0;
+    margin-bottom: 1rem;
+  text-align: left!important;
+   font-family: Averta, sans-serif;
+  font-weight:400;
+}
+.intern{
+    box-sizing:border-box;
+  border:0px;
+  background-image:url("hero-bg.svg");
+  text-align: center!important;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+  width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+ margin-right:40px;
+  
+}
+.talent{
+    box-sizing:border-box;
+  border:0px;
+ background-image:url("hero-bg.svg");
+  text-align: center!important;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+  width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+ margin-right:40px;
+}
+.zurin{
+padding-top:40px;
+  padding-left:-20px;
+  margin:auto;
+  position:relative; left:-90px;
+  }
+.zurita{
+  padding-top:40px;
+  padding-left:-20px;
+  margin:auto;
+  position:relative; left:-90px;
+}
+.links{
+  float:left;
+}
+.prefoot{
+  display:flex;
+  margin:auto;
+  background-color: #fff;
+    overflow: hidden;
+  font-size: 1rem;
+    font-weight: 400;
+    font-weight: bold;
+    line-height: 24px;
+    color: #514949;
+    text-align: left;
+  margin-top: 215px;
+  max-width: 1240px !important;
+  justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 56px;
+    padding: 20px;
+  @media (min-width: 768px)
+.text-md-left {
+    text-align: left!important;}
+}
+.last{
+  padding-top:10px;
+ width:130px;
+}
+.icons{
+ height:18px;
+width:18px!important;
+  margin-right: 5px;
+  vertical-align: middle;
+    border-style: none;
+}
+.adress{
+  font-size: 14px;
+    line-height: 20px;
+    color: #514949;
+    opacity: 0.9;
+}
+footer{
+  text-align: center!important;
+  font-size: 16px;
+    line-height: 24px;
+    font-weight:bold;
+    padding-top: 10px;
+    color: #514949;
+    padding-bottom:100px;
+}
+.line{
+  margin-right: 120px;
+  margin-left:120px;
+}
